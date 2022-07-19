@@ -1,29 +1,26 @@
 *{
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     display: flex;
-    overflow:hidden;
     margin: 0%;
+    overflow:hidden;
     justify-content: center;
     height: 100vh;
     
 }
 .main_section{
-    background: url('pic1.jpg');
-    /* no-repeat center center/cover ; */
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute;
+    background: url('pic1.jpg') no-repeat center center/cover; 
+    position: absolute;
     top: -30px;
-    left: -30px;
+    left: -30px; 
     width: calc(100vw + 60px);
-    height: calc(100vh + 60px);
-    z-index: -1; */
+    height: calc(100vh + 60px);   
+    z-index: -1;
     filter: blur(0px);
 }
 .loading_num{
